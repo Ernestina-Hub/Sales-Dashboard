@@ -4,7 +4,7 @@
  
 ### Project Overview
 
-The Sales and Marketing Manager have requested that as a Data Analyst to build an interactive dashboard to monitor year on year revenue growth, profitability, and product-level performance, identifying margin gaps and loss-making categories to support strategic decision-making
+The analysis is done for a USA based electronics and appliance store. With data from 2022 - 2023. The Sales and Marketing Manager have requested me to build an interactive dashboard to monitor year on year revenue growth, profitability, and product-level performance, identifying margin gaps and loss-making categories to support strategic decision-making.
  
 ### Data Sources
 
