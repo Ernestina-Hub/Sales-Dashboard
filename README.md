@@ -2,31 +2,39 @@
 
 # Sales Performance & Profitability Analytics Dashboard
  
-### Project Overview
+### Business Problem
+The Sales and Marketing team lacked a centralized view of performance across revenue, profit, and product categories. Reporting was fragmented, making it difficult to track year-over-year trends, identify underperforming products, and make timely, data-driven decisions.
 
-The analysis is done for a USA based electronics and appliance store. With data from 2020 - 2023. The Sales and Marketing Manager have requested that I build an interactive dashboard to monitor year on year revenue growth, profitability and product-level performance.
+
+### Objective
+
+Develop an interactive dashboard that provides a clear, consolidated view of sales performance from 2020–2023, enabling stakeholders to monitor growth, profitability, and product-level performance.
  
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the orders.csv, product.csv and customer.csv files, containing detailed information about company sales.
- 
- 
-### Tools
-- Excel - Data Cleaning [Download here](https://microsoft.com)
-- Tablau - Data Visulization [Download here](https://tableaupublic.com)
- 
-### Data Cleaning/Preparation
+The analysis is based on three primary datasets:
 
-The following task were done in the data preparation phase:
+  -  orders.csv – transaction-level sales data (revenue, quantity, dates)
+  -  product.csv – product hierarchy and category information
+  -  customer.csv – customer segmentation and identifiers
+ 
+ 
+### Tools Used
+- Excel - Data Cleaning transformation and validation [Download here](https://microsoft.com)
+- Tablau - dashboard design, data modeling, and visualization [Download here](https://tableaupublic.com)
+ 
+### Data Preparation
 
-  1. Data loading and inspection.
+The following steps were completed during the data preparation phase:
+
+  1. Merged datasets using common keys (Product ID, Customer ID)
   
-  2. Handling missing values.
+  2. Handled missing values and removed duplicates
   
-  3. Data cleaning and formatting.
+  3. Created calculated fields (e.g., profit, profit margin, year-over-year growth)
 
 ### Purpose
-The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
+The purpose of the sales dashboard is to present an overview of the company's year on year revenue growth, profitability and product-level performance in order to analyze year-over-year sales performance and understand sales trends.
 
 ### Key Requirements from stakeholders:
 
@@ -76,7 +84,6 @@ Display a summary of total sales, profits and quantity for the current year and 
   
 6.	Below-average performance periods
      - Several periods fall below average sales and profit benchmarks → inconsistency in performance
-
 
 
 ## Actionable recommendations
