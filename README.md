@@ -2,13 +2,16 @@
 
 # Sales Performance & Profitability Analytics Dashboard
  
+### Overview
+End-to-end data analysis project focused on transforming fragmented sales data into a decision-ready dashboard. Built to enable leadership to quickly identify growth drivers, margin risks, and product performance trends across a 4-year period (2020–2023).
+
 ### Business Problem
-The Sales and Marketing team lacked a centralized view of performance across revenue, profit, and product categories. Reporting was fragmented, making it difficult to track year-over-year trends, identify underperforming products, and make timely, data-driven decisions.
+The Sales and Marketing team lacked a centralized view of performance across revenue, profit, and product categories. Reporting was fragmented, making it difficult to track year-over-year trends, identify underperforming products, and act quickly on trends impacting revenue and margins.
 
 
-### Objective
+### Solution
 
-Develop an interactive dashboard that provides a clear, consolidated view of sales performance from 2020–2023, enabling stakeholders to monitor growth, profitability, and product-level performance.
+Designed and delivered an interactive Tableau dashboard that consolidates key business metrics into a single, intuitive interface. The solution enables real-time performance tracking, trend analysis, and drill-down into product-level insights.
  
 ### Data Sources
 
@@ -20,41 +23,20 @@ The analysis is based on three primary datasets:
  
  
 ### Tools Used
-- Excel - Data Cleaning transformation and validation [Download here](https://microsoft.com)
-- Tablau - dashboard design, data modeling, and visualization [Download here](https://tableaupublic.com)
+- Excel - Data Cleaning transformation and validation 
+- Tablau - data modeling, KPI design, interactive dashboard development [Download here](https://tableaupublic.com)
  
-### Data Preparation
+### Data Preparation and Modeling
 
-The following steps were completed during the data preparation phase:
-
-  1. Merged datasets using common keys (Product ID, Customer ID)
+  1. Integrated multiple datasets (orders, products, customers) using relational keys
   
-  2. Handled missing values and removed duplicates
+  2. Cleaned missing, inconsistent, and duplicate records
   
-  3. Created calculated fields (e.g., profit, profit margin, year-over-year growth)
+  3. Engineered key metrics: Profit, Profit Margin, Year on Year Growth
+  
+  4. Structured data for time-series and category-level analysis
 
-### Purpose
-The purpose of the sales dashboard is to present an overview of the company's year on year revenue growth, profitability and product-level performance in order to analyze year-over-year sales performance and understand sales trends.
-
-### Key Requirements from stakeholders:
-
-### KPI Overview
-Display a summary of total sales, profits and quantity for the current year and the previous year.
-### Sales Trends
-– Present the data for each KPI on a monthly basis for both the current year and the previous year.
-
-– Identify months with highest and lowest sales and make them easy to recognize.
-
-### Product Subcategory Comparison
-– Compare sales performance by different product subcategories for the current year and the previous year.
-– Include a comparison of sales with profit.
-
-### Weekly Trends for Sales & Profit
-– Present weekly sales and profit data for the current year.
-– Display the average weekly values.
-
-– Highlight weeks that are above and below the average to draw attention to sales & profit performance.
-
+### Dashboard Features (What Sets This Apart)
 
 <img width="940" height="617" alt="image" src="https://github.com/user-attachments/assets/799e193b-eb5a-4178-b933-c4fab2b61e7b" />
 
